@@ -1,15 +1,23 @@
+
 package seratushari;
+
+import java.util.Scanner;
 
 public class day7 {
     public static void main(String[] args) {
         
-     int aku,dia,yanglain;
-     aku         = 1 ;
-     dia         = 2;
-     yanglain    = 2;
-        System.out.println(aku == dia );
-        System.out.println(dia == yanglain);
-        System.out.println(" sekian dan terimkasih :)");
+        Scanner input = new Scanner(System.in);
+        String username,password;
+        System.out.println("Username : ");
+        username = input.next();
+        System.out.println("Password : ");
+        password = input.next();
+        
+        if(username.equals("unsulbar") && password.equals("mhs")){
+            System.out.println("Login Berhasil ");
+        }else{
+            System.out.println(" Login gagal :)");
+        }
         
         
         
