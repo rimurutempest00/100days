@@ -1,0 +1,23 @@
+package day76;
+import java.util.ArrayList;
+import java.util.Vector;
+public class day76 {
+    
+    public static void main(String[] args) {
+        ArrayList < Integer> angka = new ArrayList <Integer>();
+        angka.add(36);
+        angka.add(10);
+        angka.add(22);
+        for(int i : angka){
+            System.out.println(i);
+        }
+        Vector <Double> Anka =new Vector<Double>();
+        Anka.add(22.45);
+        Anka.add(65.74);
+        for(double a : Anka){
+            System.out.println(a);
+            
+        }
+    }
+    
+}
